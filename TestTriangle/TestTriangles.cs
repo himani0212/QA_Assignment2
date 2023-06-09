@@ -90,13 +90,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input3and4and5_OutputValidScaleneTriangle()
         {
             // Arrange
-            int a = 3;
-            int b = 4;
-            int c = 5;
+            int side1 = 3;
+            int side2 = 4;
+            int side3 = 5;
             string expected = "The triangle is valid and is a SCALENE";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -106,13 +106,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input7and9and11_OutputValidScaleneTriangle()
         {
             // Arrange
-            int a = 7;
-            int b = 9;
-            int c = 11;
+            int side1 = 7;
+            int side2 = 9;
+            int side3 = 11;
             string expected = "The triangle is valid and is a SCALENE";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -123,13 +123,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input12and16and20_OutputValidScaleneTriangle()
         {
             // Arrange
-            int a = 12;
-            int b = 16;
-            int c = 20;
+            int side1 = 12;
+            int side2 = 16;
+            int side3 = 20;
             string expected = "The triangle is valid and is a SCALENE";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -139,13 +139,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input9and13and15_OutputValidScaleneTriangle()
         {
             // Arrange
-            int a = 9;
-            int b = 13;
-            int c = 15;
+            int side1 = 9;
+            int side2 = 13;
+            int side3 = 15;
             string expected = "The triangle is valid and is a SCALENE";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -155,13 +155,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input5and12and13_OutputValidScaleneTriangle()
         {
             // Arrange
-            int a = 5;
-            int b = 12;
-            int c = 13;
+            int side1 = 5;
+            int side2 = 12;
+            int side3 = 13;
             string expected = "The triangle is valid and is a SCALENE";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
