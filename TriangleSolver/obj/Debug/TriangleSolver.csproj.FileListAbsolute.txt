@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+C:\Users\Administrator\source\repos\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+C:\Users\himan\OneDrive\Desktop\QA\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
