@@ -216,12 +216,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_InvalidResponse_WhenSumOfTwoSidesIsEqualToThirdSide()
         {
             // Arrange
-            int firstSide = 3;
-            int secondSide = 4;
-            int thirdSide = 7;
+            int side1 = 3;
+            int side2 = 4;
+            int side3 = 7;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("A triangle cannot be formed with those numbers", result);
@@ -231,12 +231,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_InvalidResponse_WhenSumOfTwoSidesIsLessThanThirdSide()
         {
             // Arrange
-            int firstSide = 5;
-            int secondSide = 10;
-            int thirdSide = 25;
+            int side1 = 5;
+            int side2 = 10;
+            int side3 = 25;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("A triangle cannot be formed with those numbers", result);
@@ -246,12 +246,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_InvalidResponse_WhenOneSideIsGreaterThanSumOfOtherTwoSides()
         {
             // Arrange
-            int firstSide = 10;
-            int secondSide = 15;
-            int thirdSide = 30;
+            int side1 = 10;
+            int side2 = 15;
+            int side3 = 30;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("A triangle cannot be formed with those numbers", result);
