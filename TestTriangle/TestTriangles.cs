@@ -37,13 +37,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input5and5and8_OutputValidIsoscelesTriangle()
         {
             // Arrange
-            int a = 5;
-            int b = 5;
-            int c = 8;
+            int side1 = 5;
+            int side2 = 5;
+            int side3 = 8;
             string expected = "The triangle is valid and is an ISOSCELES";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -55,13 +55,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input5and5and3_OutputIsoscelesTriangle()
         {
             // Arrange
-            int a = 5;
-            int b = 5;
-            int c = 3;
+            int side1 = 5;
+            int side2 = 5;
+            int side3 = 3;
             string expected = "The triangle is valid and is an ISOSCELES";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -72,13 +72,13 @@ namespace TestTriangle
         public void AnalyzeTriangle_Input8and5and8_OutputIsoscelesTriangle()
         {
             // Arrange
-            int a = 8;
-            int b = 5;
-            int c = 8;
+            int side1 = 8;
+            int side2 = 5;
+            int side3 = 8;
             string expected = "The triangle is valid and is an ISOSCELES";
 
             // Act
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual(expected, actual);
