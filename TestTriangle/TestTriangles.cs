@@ -18,15 +18,15 @@ namespace TestTriangle
         {
             //Arrange
 
-            int a = 4;
-            int b = 4;
-            int c = 4;
+            int side1 = 4;
+            int side2 = 4;
+            int side3 = 4;
 
             string expected = "The triangle is valid and is an EQUILATERAL";
 
             //Act
 
-            string actual = Triangle.AnalyzeTriangle(a, b, c);
+            string actual = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             //Assert
 
