@@ -171,12 +171,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_ZeroLengthFirstSide_ReturnsErrorMessage()
         {
             // Arrange
-            int firstSide = 0;
-            int secondSide = 2;
-            int thirdSide = 3;
+            int side1 = 0;
+            int side2 = 2;
+            int side3 = 3;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("At least one side of your triangle has a zero length and is thus invalid", result);
@@ -186,12 +186,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_ZeroLengthSecondSide_ReturnsErrorMessage()
         {
             // Arrange
-            int firstSide = 1;
-            int secondSide = 0;
-            int thirdSide = 3;
+            int side1 = 1;
+            int side2 = 0;
+            int side3 = 3;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("At least one side of your triangle has a zero length and is thus invalid", result);
@@ -201,12 +201,12 @@ namespace TestTriangle
         public void AnalyzeTriangle_ZeroLengthThirdSide_ReturnsErrorMessage()
         {
             // Arrange
-            int firstSide = 2;
-            int secondSide = 3;
-            int thirdSide = 0;
+            int side1 = 2;
+            int side2 = 3;
+            int side3 = 0;
 
             // Act
-            string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
 
             // Assert
             Assert.AreEqual("At least one side of your triangle has a zero length and is thus invalid", result);
